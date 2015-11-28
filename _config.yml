@@ -1,14 +1,26 @@
-layout_spectrum: 0.09036316
-typography_spectrum: 0.9423819
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
   saturation: 0.8053019
   lightness: 0.02001297
-  brandStrength: 0.3734413
-  rhythmicContrast: 0.4250034
+  brandStrength: 0.4444444
   brandColors:
-    - '#F7EDF0'
-    - '#F4CBC6'
-    - '#F4AFAB'
-    - '#F4EEA9'
-    - '#F4F482'
+    - '#392E28'
+    - '#DDDAD5'
+    - '#885342'
+    - '#C69B5B'
+    - '#8AAFC2'
+  rhythmicContrast: 0.4250034
+typography_spectrum: 0.9423819
+layout_spectrum: 0.09036316
 name: Elena
